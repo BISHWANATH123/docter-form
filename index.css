@@ -1,0 +1,129 @@
+
+table td,
+table th {
+    border: 2px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    margin: 100px;
+
+
+}
+
+
+
+
+
+
+table tr:nth-child(even){
+    background-color: #ddd;
+}
+
+
+th{
+    margin: 30px;
+}
+
+
+
+table tr:hover{
+    background-color: #ddd;
+}
+
+table th{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: left;
+    background-color: aqua;
+    color: white;
+    /* text-align: ; */
+    margin: 50px;
+}
+
+
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+input[type="text"],
+select,
+textarea,button{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+
+}
+
+
+input[type="number"]{
+    width: 200px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+
+}
+
+input[type="tel" ]{
+    width: 200px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+
+}
+input[type="email"]{
+    width: 200px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+
+}
+
+
+
+button[type="submit"]{
+    background-color: aqua;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+}
+button[type="submit"]:hover{
+    background-color: aquamarine;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: monospace;
+    color: aqua;
+    text-decoration: underline;
+}
